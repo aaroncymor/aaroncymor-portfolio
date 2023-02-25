@@ -1,0 +1,41 @@
+@keyframes rotate {
+
+  from {
+    rotate: 0deg;
+  }
+
+  50% {
+    scale: 1 1.5;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+.blob {
+  @apply
+  h-[34vmax]
+  bg-white
+  bg-gradient-to-r
+  from-[#71F0C5]
+  to-[#8F6DD5]
+  aspect-square
+  rounded-full
+  absolute
+  top-1/2
+  left-1/2
+  opacity-[0.8]
+  ;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  transform: translate(-50%, -50%);
+  animation: rotate 20s infinite;
+
+  /* top-0 */
+  /* left-0 */
+}

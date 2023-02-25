@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: box-border;
+}
+
+html.has-scroll-smooth {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.app__loading-container .app__loading-part {
+  /* @apply fixed w-[5%] h-screen bg-gray-900; */
+  @apply fixed w-[5%] h-screen bg-gray-900 dark:bg-white z-50;
+}
+
+.app__loading-overlay {
+  @apply w-full h-screen;
+}
+
+.app__loading-part.part-1 {
+  @apply left-0;
+}
+
+.app__loading-part.part-2 {
+  @apply left-[5%];
+}
+
+.app__loading-part.part-3 {
+  @apply left-[10%];
+}
+
+.app__loading-part.part-4 {
+  @apply left-[15%];
+}
+
+.app__loading-part.part-5 {
+  @apply left-[20%];
+}
+
+.app__loading-part.part-6 {
+  @apply left-[25%];
+}
+
+.app__loading-part.part-7 {
+  @apply left-[30%];
+}
+
+.app__loading-part.part-8 {
+  @apply left-[35%];
+}
+
+.app__loading-part.part-9 {
+  @apply left-[40%];
+}
+
+.app__loading-part.part-10 {
+  @apply left-[45%];
+}
+
+.app__loading-part.part-11 {
+  @apply left-[50%];
+}
+
+.app__loading-part.part-12 {
+  @apply left-[55%];
+}
+
+.app__loading-part.part-13 {
+  @apply left-[60%];
+}
+
+.app__loading-part.part-14 {
+  @apply left-[65%];
+}
+
+.app__loading-part.part-15 {
+  @apply left-[70%];
+}
+
+.app__loading-part.part-16 {
+  @apply left-[75%];
+}
+
+.app__loading-part.part-17 {
+  @apply left-[80%];
+}
+
+.app__loading-part.part-18 {
+  @apply left-[85%];
+}
+
+.app__loading-part.part-19 {
+  @apply left-[90%];
+}
+
+.app__loading-part.part-20 {
+  @apply left-[95%];
+}
